@@ -1,8 +1,5 @@
-all: main.o
-	gcc -o main.o
-
-main.o:
-	gcc -c main.c
+all:
+	gcc main.c
 
 run:
 	./a.out
