@@ -20,6 +20,6 @@ int main() {
 	char * buf1="This is an example of write\n";
 	int bytes_wrote;
 	bytes_wrote=write(filedescriptor2, buf1,strlen(buf1));
-	printf("Text written to output.txt:\n%s\n\n",buf1 );
+	printf("Text written to (beginning of) output.txt:\n%s\n\n",buf1 );
 	close(filedescriptor2);
 }
